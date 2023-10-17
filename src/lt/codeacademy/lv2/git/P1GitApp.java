@@ -4,17 +4,18 @@ public class P1GitApp {
     public static void main(String[] args) {
 
         System.out.println("hello");
-        ifExample()
+        ifExample();
 
     }
 
     private static void ifExample() {
-        boolean tiesa = (5>3);
+        //tenary operators  - ?:
+        int result =0;
 
         if (5>3){
-            tiesa =true;
+            result =5;
         } else {
-            tiesa = false;
+            result = 3;
         }
     }
 }
