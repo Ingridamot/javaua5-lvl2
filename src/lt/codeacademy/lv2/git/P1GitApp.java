@@ -10,7 +10,20 @@ public class P1GitApp {
 
     private static void ifExample() {
         //tenary operators  - ?:
-        int result = (5>3)? 5:3;
+        //int result = (5>3)? 5:3;
+        final int daysValue =2;
+        if (daysValue >= 1 && daysValue <=5){
+            doWork();
 
+        }else {
+            doToRest();
+        }
+
+    }
+
+    private static void doToRest() {
+    }
+
+    private static void doWork() {
     }
 }
