@@ -10,12 +10,7 @@ public class P1GitApp {
 
     private static void ifExample() {
         //tenary operators  - ?:
-        int result =0;
+        int result = (5>3)? 5:3;
 
-        if (5>3){
-            result =5;
-        } else {
-            result = 3;
-        }
     }
 }
